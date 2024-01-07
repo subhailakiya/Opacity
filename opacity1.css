@@ -1,0 +1,21 @@
+/* opacity starts with 0.1-1.0 
+when the background increase than img size just increase the img size then it occupy the same size 
+*/
+ .opacity  {
+   width:80%;
+  background-color: black;
+
+} 
+
+
+.opacity img {
+   
+    width:100%;
+    height:60%; 
+    opacity:0.3;
+}
+.opacity:hover{
+    background-color: yellow;
+    opacity:1;
+
+}
